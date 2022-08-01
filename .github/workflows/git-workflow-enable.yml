@@ -18,5 +18,5 @@ jobs:
         run: |
           curl -X PUT \
             -H "Accept: application/vnd.github+json" \
-            -H "Authorization: token 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" \
+            -H "Authorization: token ${{ secrets.PAT}}" \
             --url https://api.github.com/repos/alexthiery/scanicula-aek/actions/workflows/24186152/enable
