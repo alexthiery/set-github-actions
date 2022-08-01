@@ -16,7 +16,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Enable workflows
         run: |
-          curl -X PUT \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: token ${{ secrets.PAT}}" \
-            --url https://api.github.com/repos/alexthiery/scanicula-aek/actions/workflows/24186152/enable
+          for workflow in $(cat workflows.txt); do
+            curl -X PUT \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: token ${{ secrets.PAT}}" \
+              --url "${image}"
+          done

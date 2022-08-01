@@ -1,0 +1,1 @@
+https://api.github.com/repos/alexthiery/scanicula-aek/actions/workflows/24186152/enable
