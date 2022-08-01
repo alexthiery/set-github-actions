@@ -7,7 +7,7 @@ name: git-workflow-enable
 on:
   push:
     branches: 
-      - dev
+      - master
 
 jobs:
   git-workflow-enable:

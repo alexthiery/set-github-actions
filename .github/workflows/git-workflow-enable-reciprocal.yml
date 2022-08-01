@@ -1,11 +1,6 @@
 name: git-workflow-enable-reciprocal
 
 on:
-  push:
-    branches: 
-      - master
-
-on:
   schedule:
     - cron: 0 0 16 * *
 
