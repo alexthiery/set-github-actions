@@ -19,4 +19,4 @@ jobs:
             curl -X PUT \
               -H "Accept: application/vnd.github+json" \
               -H "Authorization: token ${{ secrets.PAT}}" \
-              --url "https://api.github.com/repos/alexthiery/git-workflow-enable/actions/workflows/31423733/disable"
+              --url "https://api.github.com/repos/alexthiery/set-github-actions/actions/workflows/31423733/disable"
