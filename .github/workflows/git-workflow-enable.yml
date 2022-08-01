@@ -10,7 +10,7 @@ on:
 #     - cron: 0 0 1 * *
 
 jobs:
-  docker-pull:
+  git-workflow-enable:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,5 +18,5 @@ jobs:
         run: |
           curl -X PUT \
             -H "Accept: application/vnd.github+json" \
-            -H "Authorization: token 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" \
+            -H "Authorization: token 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" \
             --url https://api.github.com/repos/alexthiery/scanicula-aek/actions/workflows/24186152/enable
