@@ -1,1 +1,6 @@
-https://api.github.com/repos/alexthiery/scanicula-aek/actions/workflows/24186152/enable
+https://api.github.com/repos/alexthiery/set-github-actions/actions/workflows/31425504/enable
+https://api.github.com/repos/alexthiery/scanicula-aek/actions/workflows/docker-pull.yml/enable
+https://api.github.com/repos/alexthiery/otic-reprogramming/actions/workflows/docker-pull.yml/enable
+https://api.github.com/repos/alexthiery/ear-organoids/actions/workflows/docker-pull.yml/enable
+https://api.github.com/repos/alexthiery/10x_neural_plate_border/actions/workflows/docker-pull.yml/enable
+https://api.github.com/repos/alexthiery/10x_neural_tube/actions/workflows/docker-pull.yml/enable

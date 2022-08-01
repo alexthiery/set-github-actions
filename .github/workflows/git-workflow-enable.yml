@@ -1,13 +1,13 @@
 name: git-workflow-enable
 
+# on:
+#   schedule:
+#     - cron: 0 0 2 * *
+
 on:
   push:
     branches: 
-      - master
-
-# on:
-#   schedule:
-#     - cron: 0 0 1 * *
+      - dev
 
 jobs:
   git-workflow-enable:
