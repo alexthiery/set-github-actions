@@ -1,0 +1,22 @@
+name: git-workflow-enable-reciprocal
+
+on:
+  push:
+    branches: 
+      - master
+
+# on:
+#   schedule:
+#     - cron: 0 0 1 * *
+
+jobs:
+  git-workflow-enable:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Enable workflows
+        run: |
+            curl -X PUT \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: token ${{ secrets.PAT}}" \
+              --url "https://api.github.com/repos/alexthiery/git-workflow-enable/actions/workflows/31423733/disable"
