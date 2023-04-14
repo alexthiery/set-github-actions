@@ -5,3 +5,4 @@ https://api.github.com/repos/alexthiery/ear-organoids/actions/workflows/docker-p
 https://api.github.com/repos/alexthiery/10x_neural_plate_border/actions/workflows/docker-pull.yml/enable
 https://api.github.com/repos/alexthiery/10x_neural_tube/actions/workflows/docker-pull.yml/enable
 https://api.github.com/repos/evaham1/atac_neural_plate_border/actions/workflows/docker-pull.yml/enable
+https://github.com/Streit-lab/enhancer_annotation_and_motif_analysis/actions/workflows/docker-pull.yml
